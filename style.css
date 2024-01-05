@@ -8,6 +8,7 @@ html, body {
     background: #1B1924;
     color: #FFF;
     font-family: Inter, sans-serif;
+    user-select: none;
 }
 
 .main-img {
@@ -42,6 +43,7 @@ textarea {
     font-family: Inter, sans-serif;
     border-radius: 8px;
     border: none;
+    resize: none;
 }
 
 #publish-btn {
