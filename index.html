@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
@@ -22,12 +22,31 @@
         </header>
         <main>
             <textarea id="endorsement-input" placeholder="Write your endorsement here"></textarea>
+            <div class="flex-row">
+                <input class="half-input" id="from-input" placeholder="From" type="text">
+                <input class="half-input" id="to-input" placeholder="To" type="text">
+            </div>
             <button id="publish-btn">Publish</button>
             <h2 class="section-title" id="endorsement-title">- Endorsements -</h2>
             <ul id="endorsement-list">
-                <li class="endorsement">Hi Bob! Your React Router course is so good. The students are going to LOVE IT. I’m so excited for the launch :) 🔥 Per</li>
-                <li class="endorsement">Abdellah! That transcription feature you completed for Scrimba 3.0 is amazing. I know you’ve been working hard on it for several months now. 👏👏👏 Really good work 🙌
-From Sindre</li>
+                <!--<li class="endorsement">
+                    <p class="endorsement-label">To Bob</p>
+                    <p class="endorsement-message">Hi Bob! Your React Router course is so good. The students are going to LOVE IT. I’m so excited for the launch :) 🔥
+                    </p>
+                    <div class="flex-row">
+                        <p class="endorsement-label">From Denna</p>
+                        <p class="likes">❤️ 4</p>
+                    </div>
+                </li>
+                <li class="endorsement">
+                    <p class="endorsement-label">To Abdellah</p>
+                    <p class="endorsement-message">Abdellah! That transcription feature you completed for Scrimba 3.0 is amazing. I know you’ve been working hard on it for several months now. 👏👏👏 Really good work 🙌
+                    </p>
+                    <div class="flex-row">
+                        <p class="endorsement-label">From Jacob</p>
+                        <p class="likes">❤️ 2</p>
+                    </div>
+                </li>-->
             </ul>
         <script type="module" src="index.js"></script>
     </body>
